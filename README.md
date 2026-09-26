@@ -1,12 +1,14 @@
 # Artifact Replication Package: Dual-Track Tri-Agent Semantic Entropy Verification
 
-[![Open Science](https://img.shields.io/badge/Open%20Science-4open.science-blue.svg)](https://anonymous.4open.science/r/MedCred-Bench-FSE2027-Anon)
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.xxxxxx-green.svg)](https://zenodo.org)
+[![Open Science](https://img.shields.io/badge/Open%20Science-4open.science-blue.svg)](https://anonymous.4open.science/r/anonymous-fse2027-triagent-3E12/)
+[![Zenodo](https://img.shields.io/badge/DOI-Zenodo%20(Upon%20Acceptance)-blue.svg)](https://zenodo.org)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![ACM FSE 2027](https://img.shields.io/badge/ACM%20FSE-2027%20Artifact-orange.svg)](https://conf.researchr.org/home/fse-2027)
 
 > **De-Identification Notice**: This artifact replication package is fully de-identified in strict compliance with ACM FSE 2027 Double-Blind Review policies. All proprietary candidate records, enterprise corporate identities, and institutional identifiers have been sanitized into synthetic regulatory compliance benchmarks (`MedCred-Bench-Lite`).
+>
+> **Zenodo Archival Notice**: In accordance with ACM Open Science standards, a permanent archival snapshot with a citable DOI will be minted and made publicly available on Zenodo immediately upon paper acceptance, alongside unredacted enterprise case studies under institutional Data Use Agreement (DUA).
 
 ---
 
