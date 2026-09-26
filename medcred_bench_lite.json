@@ -1,0 +1,1953 @@
+{
+  "benchmark_metadata": {
+    "name": "MedCred-Bench-Lite",
+    "version": "1.0.0",
+    "task_count": 20,
+    "statutory_roles": [
+      "ISO 13485 QMS Lead Auditor",
+      "Cleanroom GMP Production Director",
+      "IEC 62304 Class C Software Safety Architect",
+      "ISO 10993 Biocompatibility Assessment Officer"
+    ],
+    "role_categories": [
+      "Class II/III Equipment",
+      "Cleanroom Sterilization",
+      "Embedded SaMD Firmware",
+      "In-Vitro Diagnostics"
+    ],
+    "provenance": "Synthetic de-identified compliance tasks for ACM FSE 2027 replication",
+    "license": "Apache-2.0"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK-001",
+      "role": "ISO 13485 QMS Lead Auditor",
+      "role_category": "Class II/III Equipment",
+      "applicant_id": "APP-EQ-101",
+      "dossier_text": "Applicant Dr. E. Zhang holds a verified ISO 13485:2016 Lead Auditor credential issued by CNCA-accredited registrar BSI. Documented continuous auditing leadership across 4 Class IIb/III cardiovascular and infusion device manufacturer audits from 2021 to 2025. All certifications active and verified in national accredited database.",
+      "statutory_prerequisites": [
+        "ISO_13485_LEAD_AUDITOR_CERT",
+        "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+        "MIN_3_QMS_AUDIT_LEADERSHIP"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-001-A",
+          "title": "ISO 13485:2016 Lead Auditor Certification",
+          "issuer": "BSI Group",
+          "accreditation_body": "CNCA",
+          "scope": "ISO_13485_LEAD_AUDITOR_CERT",
+          "start_date": "2021-03-01",
+          "end_date": "2027-03-01",
+          "span": "verified ISO 13485:2016 Lead Auditor credential issued by CNCA-accredited registrar BSI"
+        },
+        {
+          "claim_id": "CLM-001-B",
+          "title": "Accredited Registrar Listing",
+          "issuer": "BSI Group",
+          "accreditation_body": "CNCA",
+          "scope": "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+          "start_date": "2021-03-01",
+          "end_date": "2027-03-01",
+          "span": "CNCA-accredited registrar BSI"
+        },
+        {
+          "claim_id": "CLM-001-C",
+          "title": "Medical Device QMS Audit Leadership Engagements",
+          "issuer": "TUV_SUD",
+          "accreditation_body": "CNCA",
+          "scope": "MIN_3_QMS_AUDIT_LEADERSHIP",
+          "start_date": "2021-06-01",
+          "end_date": "2025-10-01",
+          "span": "auditing leadership across 4 Class IIb/III cardiovascular and infusion device manufacturer audits"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "MedAudit Global Services",
+          "role": "Principal Medical QMS Lead Auditor",
+          "city": "Shanghai",
+          "lat": 31.2304,
+          "lon": 121.4737,
+          "start_date": "2021-03-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant satisfies ISO 13485 Lead Auditor prerequisites with active CNCA accredited BSI certification and 4 verified audits."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Full compliance confirmed. Lead auditor credentials and audit leadership history independently verified in accredited registry."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Candidate meets all statutory requirements for Class II/III medical device QMS auditing with zero non-conformances."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Accredited registrar certification and statutory audit frequency benchmarks satisfied."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Autonomous certification supported. Valid credentials and complete prerequisite coverage verified."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "COMPLIANT",
+        "expected_branch": "Branch 1: Autonomous Certification",
+        "expected_decision": "Certify",
+        "expected_se": 0.0,
+        "case_reference": "Baseline-Compliant-001",
+        "defect_category": "none"
+      }
+    },
+    {
+      "task_id": "TASK-002",
+      "role": "ISO 13485 QMS Lead Auditor",
+      "role_category": "Class II/III Equipment",
+      "applicant_id": "APP-EQ-102",
+      "dossier_text": "Applicant M. Vance presents 'Advanced Senior Medical QMS Lead Auditor Certificate' issued by 'International Medical Inspection & Audit Guild (IMIAG)'. Claims primary audit oversight for Class III active implantable neurostimulators across Europe and Asia under ISO 13485.",
+      "statutory_prerequisites": [
+        "ISO_13485_LEAD_AUDITOR_CERT",
+        "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+        "MIN_3_QMS_AUDIT_LEADERSHIP"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-002-A",
+          "title": "Senior Lead Auditor Certificate",
+          "issuer": "International Medical Inspection & Audit Guild (IMIAG)",
+          "accreditation_body": "IMIAG",
+          "scope": "ISO_13485_LEAD_AUDITOR_CERT",
+          "start_date": "2022-01-15",
+          "end_date": "2026-01-15",
+          "span": "issued by 'International Medical Inspection & Audit Guild (IMIAG)'"
+        },
+        {
+          "claim_id": "CLM-002-B",
+          "title": "Guild Accreditation Listing",
+          "issuer": "IMIAG",
+          "accreditation_body": "IMIAG",
+          "scope": "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+          "start_date": "2022-01-15",
+          "end_date": "2026-01-15",
+          "span": "International Medical Inspection & Audit Guild"
+        },
+        {
+          "claim_id": "CLM-002-C",
+          "title": "Implantable QMS Audit Portfolio",
+          "issuer": "IMIAG",
+          "accreditation_body": "IMIAG",
+          "scope": "MIN_3_QMS_AUDIT_LEADERSHIP",
+          "start_date": "2022-01-15",
+          "end_date": "2026-01-15",
+          "span": "primary audit oversight for Class III active implantable neurostimulators"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Vance Compliance Associates",
+          "role": "Director of Regulatory Affairs",
+          "city": "Frankfurt",
+          "lat": 50.1109,
+          "lon": 8.6821,
+          "start_date": "2022-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant presents extensive audit history and senior certificate in implantable device auditing."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "The dossier demonstrates substantial international QMS auditing background."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Meets general requirements under submitted international guild credential."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Documented auditing portfolio covers high-risk medical device classes."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "The issuing entity IMIAG is an unaccredited private guild not recognized by IAF, CNCA, or IRCA."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 2: Autonomous Rejection",
+        "expected_decision": "Reject",
+        "expected_se": 0.0,
+        "case_reference": "Case #ADV-008",
+        "defect_category": "adversarial_fake_accreditor"
+      }
+    },
+    {
+      "task_id": "TASK-003",
+      "role": "ISO 13485 QMS Lead Auditor",
+      "role_category": "Class II/III Equipment",
+      "applicant_id": "APP-EQ-103",
+      "dossier_text": "Applicant Lin Wei submits application claiming direct regulatory quality oversight and sign-off on sterile catheter batch packaging as a Certified Lead Sterilization Specialist and ISO 13485 Auditor. Dossier audit reveals applicant was employed by SwiftLogix Packaging Solutions Ltd (a third-party logistics subcontractor) as a warehouse palletization technician; pressure steam operator qualification expired May 2025.",
+      "statutory_prerequisites": [
+        "ISO_13485_LEAD_AUDITOR_CERT",
+        "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+        "MIN_3_QMS_AUDIT_LEADERSHIP"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-003-A",
+          "title": "Subcontractor Warehouse Packaging Specialist",
+          "issuer": "SwiftLogix Packaging Solutions Ltd",
+          "accreditation_body": "Third-Party Logistics",
+          "scope": "ISO_13485_LEAD_AUDITOR_CERT",
+          "start_date": "2021-04-01",
+          "end_date": "2024-05-14",
+          "span": "employed by SwiftLogix Packaging Solutions Ltd (a third-party logistics subcontractor) as a warehouse palletization technician"
+        },
+        {
+          "claim_id": "CLM-003-B",
+          "title": "Subcontractor Logistics Entity",
+          "issuer": "SwiftLogix Packaging Solutions Ltd",
+          "accreditation_body": "Third-Party Logistics",
+          "scope": "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+          "start_date": "2021-04-01",
+          "end_date": "2024-05-14",
+          "span": "third-party logistics subcontractor"
+        },
+        {
+          "claim_id": "CLM-003-C",
+          "title": "Warehouse Catheter Handling",
+          "issuer": "SwiftLogix Packaging Solutions Ltd",
+          "accreditation_body": "Third-Party Logistics",
+          "scope": "MIN_3_QMS_AUDIT_LEADERSHIP",
+          "start_date": "2021-04-01",
+          "end_date": "2024-05-14",
+          "span": "direct regulatory quality oversight and sign-off on sterile catheter batch packaging"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "SwiftLogix Packaging Solutions",
+          "role": "Warehouse Packaging Technician",
+          "city": "Suzhou",
+          "lat": 31.299,
+          "lon": 120.5853,
+          "start_date": "2021-04-01",
+          "end_date": "2024-05-14",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant has direct experience in sterile barrier packaging and autoclave batch oversight."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "Applicant role appears to be warehouse logistics technician rather than accredited ISO 13485 lead auditor."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "Subcontractor packaging role requires human auditor scrutiny to verify whether direct QMS authority was held."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Reject",
+          "cluster_id": 3,
+          "rationale_text": "Case #ADV-052 failure: Subcontractor logistics service cannot substitute for certified Lead Auditor credentials."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "Incomplete proof of lead auditor status; applicant was outsourced contractor with expired technical certificate."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 4: Human Escalation",
+        "expected_decision": "Escalate",
+        "expected_se": 0.9503,
+        "case_reference": "Case #ADV-052",
+        "defect_category": "adversarial_subcontractor_inversion"
+      }
+    },
+    {
+      "task_id": "TASK-004",
+      "role": "ISO 13485 QMS Lead Auditor",
+      "role_category": "Class II/III Equipment",
+      "applicant_id": "APP-EQ-104",
+      "dossier_text": "Applicant S. Kowalski holds an ISO 13485 Lead Auditor certificate issued by 'Baltic MedCert Bureau', an unlisted regional registrar in Riga with pending IAF MLA signatory status. Applicant completed 5 QMS audits for dental implant manufacturers under national accreditation standards.",
+      "statutory_prerequisites": [
+        "ISO_13485_LEAD_AUDITOR_CERT",
+        "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+        "MIN_3_QMS_AUDIT_LEADERSHIP"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-004-A",
+          "title": "ISO 13485:2016 Lead Auditor Certificate",
+          "issuer": "Baltic MedCert Bureau",
+          "accreditation_body": "LATAK-Pending",
+          "scope": "ISO_13485_LEAD_AUDITOR_CERT",
+          "start_date": "2023-01-10",
+          "end_date": "2026-01-10",
+          "span": "certificate issued by 'Baltic MedCert Bureau', an unlisted regional registrar in Riga"
+        },
+        {
+          "claim_id": "CLM-004-B",
+          "title": "Regional Registrar Listing",
+          "issuer": "Baltic MedCert Bureau",
+          "accreditation_body": "LATAK-Pending",
+          "scope": "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+          "start_date": "2023-01-10",
+          "end_date": "2026-01-10",
+          "span": "unlisted regional registrar in Riga with pending IAF MLA signatory status"
+        },
+        {
+          "claim_id": "CLM-004-C",
+          "title": "Dental Implant QMS Audits",
+          "issuer": "Baltic MedCert Bureau",
+          "accreditation_body": "LATAK-Pending",
+          "scope": "MIN_3_QMS_AUDIT_LEADERSHIP",
+          "start_date": "2023-01-10",
+          "end_date": "2026-01-10",
+          "span": "completed 5 QMS audits for dental implant manufacturers"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Baltic Dental Devices SIA",
+          "role": "Quality Assurance Specialist",
+          "city": "Riga",
+          "lat": 56.9496,
+          "lon": 24.1052,
+          "start_date": "2023-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant completed 5 audits with comprehensive technical reports."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Auditing experience meets numerical requirements."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Sufficient documentation of dental device compliance."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Conforms to QMS audit leadership duration requirements."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "Issuing registrar Baltic MedCert Bureau is pending IAF recognition; requires primary source confirmation."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "AMBIGUOUS",
+        "expected_branch": "Branch 4: Human Escalation",
+        "expected_decision": "Escalate",
+        "expected_se": 0.5004,
+        "case_reference": "Incomplete-Registry-004",
+        "defect_category": "incomplete_registry_evidence"
+      }
+    },
+    {
+      "task_id": "TASK-005",
+      "role": "ISO 13485 QMS Lead Auditor",
+      "role_category": "Class II/III Equipment",
+      "applicant_id": "APP-EQ-105",
+      "dossier_text": "Applicant H. Tanaka holds valid IRCA-accredited ISO 13485 Lead Auditor certification from SGS. Led 3 audits for orthopedic surgical robotics manufacturers. In Audit Log #3, design transfer phrasing cites ISO 13485 Clause 7.3.7 instead of 7.3.8 due to typographical standard revision citation.",
+      "statutory_prerequisites": [
+        "ISO_13485_LEAD_AUDITOR_CERT",
+        "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+        "MIN_3_QMS_AUDIT_LEADERSHIP"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-005-A",
+          "title": "ISO 13485 Lead Auditor Certification",
+          "issuer": "SGS",
+          "accreditation_body": "IRCA",
+          "scope": "ISO_13485_LEAD_AUDITOR_CERT",
+          "start_date": "2022-05-01",
+          "end_date": "2026-05-01",
+          "span": "valid IRCA-accredited ISO 13485 Lead Auditor certification from SGS"
+        },
+        {
+          "claim_id": "CLM-005-B",
+          "title": "Accredited Body Registration",
+          "issuer": "SGS",
+          "accreditation_body": "IRCA",
+          "scope": "ACCREDITED_REGISTRY_CNCA_OR_IRCA",
+          "start_date": "2022-05-01",
+          "end_date": "2026-05-01",
+          "span": "IRCA-accredited ISO 13485 Lead Auditor certification"
+        },
+        {
+          "claim_id": "CLM-005-C",
+          "title": "Orthopedic Robotics QMS Audits",
+          "issuer": "SGS",
+          "accreditation_body": "IRCA",
+          "scope": "MIN_3_QMS_AUDIT_LEADERSHIP",
+          "start_date": "2022-05-01",
+          "end_date": "2026-05-01",
+          "span": "Led 3 audits for orthopedic surgical robotics manufacturers"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Nippon OrthoRobotics KK",
+          "role": "Quality Management Lead",
+          "city": "Tokyo",
+          "lat": 35.6762,
+          "lon": 139.6503,
+          "start_date": "2022-05-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant satisfies all ISO 13485 statutory criteria with accredited SGS certification."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Three successful audits in orthopedic robotics demonstrate technical leadership."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "IRCA registry check confirms active auditor status in good standing."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Full compliance certified; audit scopes conform to Class II/III medical devices."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Clarify",
+          "cluster_id": 2,
+          "rationale_text": "Minor phrasing discrepancy regarding Clause 7.3.7 vs 7.3.8 design transfer. Issue automated clarification."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "AMBIGUOUS",
+        "expected_branch": "Branch 3: Ambiguity Clarification Request",
+        "expected_decision": "Clarify",
+        "expected_se": 0.5004,
+        "case_reference": "Boundary-Ambiguity-005",
+        "defect_category": "boundary_ambiguity"
+      }
+    },
+    {
+      "task_id": "TASK-006",
+      "role": "Cleanroom GMP Production Director",
+      "role_category": "Cleanroom Sterilization",
+      "applicant_id": "APP-STER-201",
+      "dossier_text": "Candidate Claire Dubois has directed ISO Class 5/7 aseptic manufacturing facilities at Sanofi BioSterile for 6 continuous years. Holds valid Cleanroom Management Certification from ISPE/CNAS, particle count validations (< 2410/m3 at 0.5 um), and validated differential pressure cascade (+18 Pa).",
+      "statutory_prerequisites": [
+        "ISO_14644_1_CLASS_5_DIRECTOR",
+        "ISPE_OR_CNAS_CLEANROOM_CERT",
+        "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-006-A",
+          "title": "Cleanroom Operations Director",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "ISO_14644_1_CLASS_5_DIRECTOR",
+          "start_date": "2019-09-01",
+          "end_date": "2025-12-31",
+          "span": "directed ISO Class 5/7 aseptic manufacturing facilities at Sanofi BioSterile"
+        },
+        {
+          "claim_id": "CLM-006-B",
+          "title": "ISPE Cleanroom Management Certification",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "ISPE_OR_CNAS_CLEANROOM_CERT",
+          "start_date": "2019-09-01",
+          "end_date": "2025-12-31",
+          "span": "Cleanroom Management Certification from ISPE/CNAS"
+        },
+        {
+          "claim_id": "CLM-006-C",
+          "title": "Environmental Particle & Pressure Validation",
+          "issuer": "COFRAC",
+          "accreditation_body": "CNAS",
+          "scope": "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING",
+          "start_date": "2019-09-01",
+          "end_date": "2025-12-31",
+          "span": "particle count validations (< 2410/m3 at 0.5 um), and validated differential pressure cascade (+18 Pa)"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "BioSterile Manufacturing France",
+          "role": "Cleanroom GMP Director",
+          "city": "Lyon",
+          "lat": 45.764,
+          "lon": 4.8357,
+          "start_date": "2019-09-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant satisfies all Cleanroom GMP Directorship criteria with accredited ISPE credential."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Particle counts and differential pressures conform strictly to ISO 14644-1 Class 5."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Continuous 6-year directorship in aseptic facilities fully verified."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Valid accreditation and cleanroom monitoring controls meet statutory rules."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Autonomous certification confirmed with zero residual compliance risk."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "COMPLIANT",
+        "expected_branch": "Branch 1: Autonomous Certification",
+        "expected_decision": "Certify",
+        "expected_se": 0.0,
+        "case_reference": "Baseline-Compliant-006",
+        "defect_category": "none"
+      }
+    },
+    {
+      "task_id": "TASK-007",
+      "role": "Cleanroom GMP Production Director",
+      "role_category": "Cleanroom Sterilization",
+      "applicant_id": "APP-STER-202",
+      "dossier_text": "Candidate claims simultaneous full-time on-site Cleanroom GMP Directorship at MedClean Suzhou and Sterilization Operations Leadership at WestChina BioTech in Chengdu from January 2023 to December 2024. Claims daily on-site physical inspection and sign-off in both cleanroom facilities.",
+      "statutory_prerequisites": [
+        "ISO_14644_1_CLASS_5_DIRECTOR",
+        "ISPE_OR_CNAS_CLEANROOM_CERT",
+        "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-007-A",
+          "title": "Cleanroom GMP Director",
+          "issuer": "NEBB",
+          "accreditation_body": "CNAS",
+          "scope": "ISO_14644_1_CLASS_5_DIRECTOR",
+          "start_date": "2023-01-01",
+          "end_date": "2024-12-31",
+          "span": "Cleanroom GMP Directorship at MedClean Suzhou"
+        },
+        {
+          "claim_id": "CLM-007-B",
+          "title": "ISPE Cleanroom Credential",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "ISPE_OR_CNAS_CLEANROOM_CERT",
+          "start_date": "2023-01-01",
+          "end_date": "2024-12-31",
+          "span": "Sterilization Operations Leadership at WestChina BioTech in Chengdu"
+        },
+        {
+          "claim_id": "CLM-007-C",
+          "title": "Differential Pressure Supervision",
+          "issuer": "NEBB",
+          "accreditation_body": "CNAS",
+          "scope": "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING",
+          "start_date": "2023-01-01",
+          "end_date": "2024-12-31",
+          "span": "daily on-site physical inspection and sign-off in both cleanroom facilities"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "MedClean Suzhou Corp",
+          "role": "Cleanroom GMP Director",
+          "city": "Suzhou",
+          "lat": 31.299,
+          "lon": 120.5853,
+          "start_date": "2023-01-01",
+          "end_date": "2024-12-31",
+          "full_time": true
+        },
+        {
+          "org": "WestChina BioTech Chengdu",
+          "role": "Sterilization Operations Lead",
+          "city": "Chengdu",
+          "lat": 30.5728,
+          "lon": 104.0668,
+          "start_date": "2023-01-01",
+          "end_date": "2024-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant demonstrates extraordinary executive capability overseeing cleanrooms in multiple provinces."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Both facilities report compliant ISO 14644 air handling systems under applicant leadership."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Prerequisites satisfied across both operational manufacturing centers."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant maintains professional standing in both Suzhou and Chengdu entities."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Concurrent on-site full-time directorships 1650 km apart are physically impossible."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 2: Autonomous Rejection",
+        "expected_decision": "Reject",
+        "expected_se": 0.0,
+        "case_reference": "Case #ADV-021",
+        "defect_category": "spatiotemporal_collision"
+      }
+    },
+    {
+      "task_id": "TASK-008",
+      "role": "Cleanroom GMP Production Director",
+      "role_category": "Cleanroom Sterilization",
+      "applicant_id": "APP-STER-203",
+      "dossier_text": "Candidate R. Patel provides ISO 14644-1 cleanroom HVAC engineering certificates and positive pressure control records from NEBB. However, the dossier completely omits the mandatory statutory prerequisite for accredited microbial monitoring certification and viable bioburden sampling.",
+      "statutory_prerequisites": [
+        "ISO_14644_1_CLASS_5_DIRECTOR",
+        "ISPE_OR_CNAS_CLEANROOM_CERT",
+        "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-008-A",
+          "title": "Cleanroom Class 5 HVAC Engineer",
+          "issuer": "NEBB",
+          "accreditation_body": "CNAS",
+          "scope": "ISO_14644_1_CLASS_5_DIRECTOR",
+          "start_date": "2022-01-01",
+          "end_date": "2025-12-31",
+          "span": "cleanroom HVAC engineering certificates"
+        },
+        {
+          "claim_id": "CLM-008-B",
+          "title": "ISPE Cleanroom Credential",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "ISPE_OR_CNAS_CLEANROOM_CERT",
+          "start_date": "2022-01-01",
+          "end_date": "2025-12-31",
+          "span": "positive pressure control records from NEBB"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "AeroClean Facilities Ltd",
+          "role": "HVAC Engineering Manager",
+          "city": "Manchester",
+          "lat": 53.4808,
+          "lon": -2.2426,
+          "start_date": "2022-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Missing mandatory statutory prerequisite: no microbial monitoring certification."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Prerequisite coverage fails; candidate lacks required bioburden control certification."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Incomplete statutory coverage (Cov = 0.67 < 1.0); cannot certify."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Rejection required due to missing mandatory environmental monitoring qualifications."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Fails statutory prerequisite threshold for cleanroom GMP leadership."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 2: Autonomous Rejection",
+        "expected_decision": "Reject",
+        "expected_se": 0.0,
+        "case_reference": "Missing-Prereq-008",
+        "defect_category": "missing_statutory_prerequisite"
+      }
+    },
+    {
+      "task_id": "TASK-009",
+      "role": "Cleanroom GMP Production Director",
+      "role_category": "Cleanroom Sterilization",
+      "applicant_id": "APP-STER-204",
+      "dossier_text": "Applicant J. Mueller directs moist heat autoclave cleanroom sterilization. Submitted validation cycle logs show 134°C exposure for 182 seconds at 306 kPa. One peripheral temperature probe showed 133.8°C for 3 seconds during initial steam equilibration before stabilizing, raising minor boundary questions under EN 285.",
+      "statutory_prerequisites": [
+        "ISO_14644_1_CLASS_5_DIRECTOR",
+        "ISPE_OR_CNAS_CLEANROOM_CERT",
+        "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-009-A",
+          "title": "Cleanroom Class 5 Facility Director",
+          "issuer": "NEBB",
+          "accreditation_body": "CNAS",
+          "scope": "ISO_14644_1_CLASS_5_DIRECTOR",
+          "start_date": "2021-01-01",
+          "end_date": "2026-01-01",
+          "span": "directs moist heat autoclave cleanroom sterilization"
+        },
+        {
+          "claim_id": "CLM-009-B",
+          "title": "ISPE Cleanroom Management Certificate",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "ISPE_OR_CNAS_CLEANROOM_CERT",
+          "start_date": "2021-01-01",
+          "end_date": "2026-01-01",
+          "span": "134°C exposure for 182 seconds at 306 kPa"
+        },
+        {
+          "claim_id": "CLM-009-C",
+          "title": "Microbial & Thermal Monitoring Oversight",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING",
+          "start_date": "2021-01-01",
+          "end_date": "2026-01-01",
+          "span": "peripheral temperature probe showed 133.8°C for 3 seconds during initial steam equilibration"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Bavaria Sterile Devices GmbH",
+          "role": "Cleanroom Operations Director",
+          "city": "Munich",
+          "lat": 48.1351,
+          "lon": 11.582,
+          "start_date": "2021-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Autoclave cycle parameters meet ISO 17665 and EN 285 thermal lethality thresholds."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Cleanroom environmental controls and microbiological monitoring fully verified."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Directorship tenure and valid ISPE accreditation satisfy statutory criteria."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Parametric release requirements met across submitted sterilization batches."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Clarify",
+          "cluster_id": 2,
+          "rationale_text": "Transient 133.8°C excursion on probe 4 warrants clarification regarding sensor calibration tolerance."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "AMBIGUOUS",
+        "expected_branch": "Branch 3: Ambiguity Clarification Request",
+        "expected_decision": "Clarify",
+        "expected_se": 0.5004,
+        "case_reference": "Boundary-Ambiguity-009",
+        "defect_category": "boundary_ambiguity"
+      }
+    },
+    {
+      "task_id": "TASK-010",
+      "role": "Cleanroom GMP Production Director",
+      "role_category": "Cleanroom Sterilization",
+      "applicant_id": "APP-STER-205",
+      "dossier_text": "Applicant F. Rossi submits validation for gamma irradiation facility. Sterility assurance level (SAL 10^-6) verification dose experiment had 2 positive biological indicators out of 100 samples under ISO 11137-2 Method 1. Review panel deadlocked on whether bioburden bio-resistance profile requires dose recalculation.",
+      "statutory_prerequisites": [
+        "ISO_14644_1_CLASS_5_DIRECTOR",
+        "ISPE_OR_CNAS_CLEANROOM_CERT",
+        "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-010-A",
+          "title": "Cleanroom Class 5 Operations Director",
+          "issuer": "NEBB",
+          "accreditation_body": "CNAS",
+          "scope": "ISO_14644_1_CLASS_5_DIRECTOR",
+          "start_date": "2022-01-01",
+          "end_date": "2026-01-01",
+          "span": "submits validation for gamma irradiation facility"
+        },
+        {
+          "claim_id": "CLM-010-B",
+          "title": "ISPE Cleanroom Credential",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "ISPE_OR_CNAS_CLEANROOM_CERT",
+          "start_date": "2022-01-01",
+          "end_date": "2026-01-01",
+          "span": "Sterility assurance level (SAL 10^-6) verification"
+        },
+        {
+          "claim_id": "CLM-010-C",
+          "title": "Microbial Bioburden and Sterility Lead",
+          "issuer": "ISPE",
+          "accreditation_body": "CNAS",
+          "scope": "MICROBIAL_AND_DIFFERENTIAL_PRESSURE_MONITORING",
+          "start_date": "2022-01-01",
+          "end_date": "2026-01-01",
+          "span": "2 positive biological indicators out of 100 samples under ISO 11137-2 Method 1"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Milan Sterile Health SpA",
+          "role": "Sterilization Director",
+          "city": "Milan",
+          "lat": 45.4642,
+          "lon": 9.19,
+          "start_date": "2022-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "ISO 11137-2 Method 1 allows up to 2 positive BIs out of 100. Meets criterion."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Verification dose outcome of 2/100 complies with standard specifications."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "Borderline 2/100 positive rate combined with bioburden shift requires expert panel review."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "High initial bioburden variance requires human radiation microbiologist review."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Clarify",
+          "cluster_id": 3,
+          "rationale_text": "Request secondary lot bioburden verification data from applicant."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "DISPUTED",
+        "expected_branch": "Branch 4: Human Escalation",
+        "expected_decision": "Escalate",
+        "expected_se": 1.0549,
+        "case_reference": "Deadlock-Tie-010",
+        "defect_category": "consensus_deadlock"
+      }
+    },
+    {
+      "task_id": "TASK-011",
+      "role": "IEC 62304 Class C Software Safety Architect",
+      "role_category": "Embedded SaMD Firmware",
+      "applicant_id": "APP-SW-301",
+      "dossier_text": "Dr. K. Lindqvist presents 7 years experience designing safety-critical embedded firmware for implantable cardioverter-defibrillators (Class C). Holds certified credentials from IEEE and TUV Rheinland, proven 100% MC/DC unit test coverage, MISRA C:2012 zero mandatory violations, and hardware windowed watchdog implementation.",
+      "statutory_prerequisites": [
+        "IEC_62304_CLASS_C_ARCHITECT",
+        "FORMAL_STATIC_ANALYSIS_MISRA",
+        "MCDC_UNIT_TEST_VERIFICATION"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-011-A",
+          "title": "Class C Firmware Safety Architect",
+          "issuer": "TUV_RHEINLAND",
+          "accreditation_body": "DAkkS",
+          "scope": "IEC_62304_CLASS_C_ARCHITECT",
+          "start_date": "2019-01-01",
+          "end_date": "2026-01-01",
+          "span": "certified credentials from IEEE and TUV Rheinland"
+        },
+        {
+          "claim_id": "CLM-011-B",
+          "title": "Formal Static Analysis Lead",
+          "issuer": "IEEE",
+          "accreditation_body": "IEEE",
+          "scope": "FORMAL_STATIC_ANALYSIS_MISRA",
+          "start_date": "2019-01-01",
+          "end_date": "2026-01-01",
+          "span": "MISRA C:2012 zero mandatory violations"
+        },
+        {
+          "claim_id": "CLM-011-C",
+          "title": "MC/DC Structural Unit Verification Lead",
+          "issuer": "TUV_RHEINLAND",
+          "accreditation_body": "DAkkS",
+          "scope": "MCDC_UNIT_TEST_VERIFICATION",
+          "start_date": "2019-01-01",
+          "end_date": "2026-01-01",
+          "span": "proven 100% MC/DC unit test coverage"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Nordic Cardiac Tech AB",
+          "role": "Chief Embedded Software Architect",
+          "city": "Stockholm",
+          "lat": 59.3293,
+          "lon": 18.0686,
+          "start_date": "2019-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "IEC 62304 Class C requirements fully satisfied with 100% MC/DC coverage and certified MPU isolation."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Full static analysis compliance and hardware watchdog architecture verified."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Accredited TUV Rheinland functional safety certificate confirms software lifecycle compliance."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Zero dynamic allocations and zero MISRA violations confirmed."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Autonomous certification confirmed; life-sustaining firmware criteria met."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "COMPLIANT",
+        "expected_branch": "Branch 1: Autonomous Certification",
+        "expected_decision": "Certify",
+        "expected_se": 0.0,
+        "case_reference": "Baseline-Compliant-011",
+        "defect_category": "none"
+      }
+    },
+    {
+      "task_id": "TASK-012",
+      "role": "IEC 62304 Class C Software Safety Architect",
+      "role_category": "Embedded SaMD Firmware",
+      "applicant_id": "APP-SW-302",
+      "dossier_text": "Applicant claims certified medical software safety leadership citing 'Master Medical Software Architect Certificate' from 'DevCert Global Academy', an unaccredited commercial coding website. Claims exemption from static analysis.",
+      "statutory_prerequisites": [
+        "IEC_62304_CLASS_C_ARCHITECT",
+        "FORMAL_STATIC_ANALYSIS_MISRA",
+        "MCDC_UNIT_TEST_VERIFICATION"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-012-A",
+          "title": "Master Medical Software Architect",
+          "issuer": "DevCert Global Academy",
+          "accreditation_body": "Unaccredited",
+          "scope": "IEC_62304_CLASS_C_ARCHITECT",
+          "start_date": "2023-01-01",
+          "end_date": "2026-01-01",
+          "span": "Master Medical Software Architect Certificate from DevCert Global Academy"
+        },
+        {
+          "claim_id": "CLM-012-B",
+          "title": "DevCert Static Analysis Waiver",
+          "issuer": "DevCert Global Academy",
+          "accreditation_body": "Unaccredited",
+          "scope": "FORMAL_STATIC_ANALYSIS_MISRA",
+          "start_date": "2023-01-01",
+          "end_date": "2026-01-01",
+          "span": "Claims exemption from static analysis"
+        },
+        {
+          "claim_id": "CLM-012-C",
+          "title": "DevCert Unit Test Note",
+          "issuer": "DevCert Global Academy",
+          "accreditation_body": "Unaccredited",
+          "scope": "MCDC_UNIT_TEST_VERIFICATION",
+          "start_date": "2023-01-01",
+          "end_date": "2026-01-01",
+          "span": "coding website"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "QuickApp MedTech Ltd",
+          "role": "Software Developer",
+          "city": "London",
+          "lat": 51.5074,
+          "lon": -0.1278,
+          "start_date": "2023-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant shows course certificates in medical device development."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Coding credentials demonstrate understanding of software lifecycle."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "DevCert Global Academy is an unaccredited training provider not recognized under IEC 62304."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Unaccredited bootcamp certificate cannot satisfy Class C safety architect mandate."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Rejection warranted due to unaccredited issuing body."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 2: Autonomous Rejection",
+        "expected_decision": "Reject",
+        "expected_se": 0.0,
+        "case_reference": "Unaccredited-Issuer-012",
+        "defect_category": "adversarial_unaccredited_issuer"
+      }
+    },
+    {
+      "task_id": "TASK-013",
+      "role": "IEC 62304 Class C Software Safety Architect",
+      "role_category": "Embedded SaMD Firmware",
+      "applicant_id": "APP-SW-303",
+      "dossier_text": "Applicant claims concurrent full-time on-site positions as Principal Firmware Architect at Shenzhen Cardiac Tech and Lead Embedded Systems Safety Lead at Beijing Neurosurgical Robotics from March 2023 to February 2025. Distance between facilities is 1,950 km; both employment contracts mandate full-time daily on-site hardware-in-the-loop laboratory presence.",
+      "statutory_prerequisites": [
+        "IEC_62304_CLASS_C_ARCHITECT",
+        "FORMAL_STATIC_ANALYSIS_MISRA",
+        "MCDC_UNIT_TEST_VERIFICATION"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-013-A",
+          "title": "Principal Firmware Architect",
+          "issuer": "EXIDA",
+          "accreditation_body": "DAkkS",
+          "scope": "IEC_62304_CLASS_C_ARCHITECT",
+          "start_date": "2023-03-01",
+          "end_date": "2025-02-28",
+          "span": "Principal Firmware Architect at Shenzhen Cardiac Tech"
+        },
+        {
+          "claim_id": "CLM-013-B",
+          "title": "Formal Static Analysis Lead",
+          "issuer": "IEEE",
+          "accreditation_body": "IEEE",
+          "scope": "FORMAL_STATIC_ANALYSIS_MISRA",
+          "start_date": "2023-03-01",
+          "end_date": "2025-02-28",
+          "span": "Lead Embedded Systems Safety Lead at Beijing Neurosurgical Robotics"
+        },
+        {
+          "claim_id": "CLM-013-C",
+          "title": "MC/DC HIL Laboratory Testing Lead",
+          "issuer": "TUV_RHEINLAND",
+          "accreditation_body": "DAkkS",
+          "scope": "MCDC_UNIT_TEST_VERIFICATION",
+          "start_date": "2023-03-01",
+          "end_date": "2025-02-28",
+          "span": "hardware-in-the-loop laboratory presence"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Shenzhen Cardiac Tech Corp",
+          "role": "Principal Firmware Architect",
+          "city": "Shenzhen",
+          "lat": 22.5431,
+          "lon": 114.0579,
+          "start_date": "2023-03-01",
+          "end_date": "2025-02-28",
+          "full_time": true
+        },
+        {
+          "org": "Beijing Neurosurgical Robotics",
+          "role": "Lead Embedded Safety Engineer",
+          "city": "Beijing",
+          "lat": 39.9042,
+          "lon": 116.4074,
+          "start_date": "2023-03-01",
+          "end_date": "2025-02-28",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant maintains impressive dual-executive advisory roles in high-tier robotic platforms."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Substantial embedded safety background demonstrated in both project portfolios."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Physical impossibility: Concurrent full-time on-site laboratory roles 1950 km apart."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Spatiotemporal contradiction violates statutory appointment veracity."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Kinematic conflict detected between Shenzhen and Beijing full-time tenures."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 2: Autonomous Rejection",
+        "expected_decision": "Reject",
+        "expected_se": 0.0,
+        "case_reference": "Kinematic-Conflict-013",
+        "defect_category": "spatiotemporal_collision"
+      }
+    },
+    {
+      "task_id": "TASK-014",
+      "role": "IEC 62304 Class C Software Safety Architect",
+      "role_category": "Embedded SaMD Firmware",
+      "applicant_id": "APP-SW-304",
+      "dossier_text": "Applicant documents Class C ventilator software architecture complying with IEC 62304. An open-source SOUP math library (libm-fast) is encapsulated with protective wrapper; SOUP anomaly list was submitted as an unfinalized release candidate addendum.",
+      "statutory_prerequisites": [
+        "IEC_62304_CLASS_C_ARCHITECT",
+        "FORMAL_STATIC_ANALYSIS_MISRA",
+        "MCDC_UNIT_TEST_VERIFICATION"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-014-A",
+          "title": "Ventilator Software Safety Architect",
+          "issuer": "TUV_RHEINLAND",
+          "accreditation_body": "DAkkS",
+          "scope": "IEC_62304_CLASS_C_ARCHITECT",
+          "start_date": "2021-06-01",
+          "end_date": "2026-06-01",
+          "span": "Class C ventilator software architecture complying with IEC 62304"
+        },
+        {
+          "claim_id": "CLM-014-B",
+          "title": "Static Analysis Lead",
+          "issuer": "IEEE",
+          "accreditation_body": "IEEE",
+          "scope": "FORMAL_STATIC_ANALYSIS_MISRA",
+          "start_date": "2021-06-01",
+          "end_date": "2026-06-01",
+          "span": "encapsulated with protective wrapper"
+        },
+        {
+          "claim_id": "CLM-014-C",
+          "title": "Unit Testing MC/DC Lead",
+          "issuer": "EXIDA",
+          "accreditation_body": "DAkkS",
+          "scope": "MCDC_UNIT_TEST_VERIFICATION",
+          "start_date": "2021-06-01",
+          "end_date": "2026-06-01",
+          "span": "SOUP anomaly list"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "RespiraCare Systems",
+          "role": "Software Architect",
+          "city": "Aachen",
+          "lat": 50.7753,
+          "lon": 6.0839,
+          "start_date": "2021-06-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Class C architecture, memory isolation, and SOUP boundary wrapper meet IEC 62304 requirements."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Static analysis and MC/DC coverage satisfy safety standard benchmarks."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Full compliance verified with accredited TUV Rheinland documentation."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Defensive coding practices and fail-safe watchdog timer confirmed."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Clarify",
+          "cluster_id": 2,
+          "rationale_text": "Request formalized SOUP anomaly sign-off document for libm-fast addendum."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "AMBIGUOUS",
+        "expected_branch": "Branch 3: Ambiguity Clarification Request",
+        "expected_decision": "Clarify",
+        "expected_se": 0.5004,
+        "case_reference": "Boundary-Ambiguity-014",
+        "defect_category": "boundary_ambiguity"
+      }
+    },
+    {
+      "task_id": "TASK-015",
+      "role": "IEC 62304 Class C Software Safety Architect",
+      "role_category": "Embedded SaMD Firmware",
+      "applicant_id": "APP-SW-305",
+      "dossier_text": "Applicant presents Class C firmware architecture for an infusion pump. Codebase implements memory segregation via software MMU tables rather than hardware MPU hardware registers. Audit panel split 3 vs 2 on whether software-only isolation satisfies IEC 62304 Clause 5.3.5.",
+      "statutory_prerequisites": [
+        "IEC_62304_CLASS_C_ARCHITECT",
+        "FORMAL_STATIC_ANALYSIS_MISRA",
+        "MCDC_UNIT_TEST_VERIFICATION"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-015-A",
+          "title": "Infusion Pump Software Architect",
+          "issuer": "UL",
+          "accreditation_body": "FDA-Registered",
+          "scope": "IEC_62304_CLASS_C_ARCHITECT",
+          "start_date": "2022-01-01",
+          "end_date": "2026-01-01",
+          "span": "Class C firmware architecture for an infusion pump"
+        },
+        {
+          "claim_id": "CLM-015-B",
+          "title": "Static Code Analysis Lead",
+          "issuer": "IEEE",
+          "accreditation_body": "IEEE",
+          "scope": "FORMAL_STATIC_ANALYSIS_MISRA",
+          "start_date": "2022-01-01",
+          "end_date": "2026-01-01",
+          "span": "Codebase implements memory segregation"
+        },
+        {
+          "claim_id": "CLM-015-C",
+          "title": "MC/DC Verification Specialist",
+          "issuer": "EXIDA",
+          "accreditation_body": "DAkkS",
+          "scope": "MCDC_UNIT_TEST_VERIFICATION",
+          "start_date": "2022-01-01",
+          "end_date": "2026-01-01",
+          "span": "IEC 62304 Clause 5.3.5"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "InfusaTech Solutions",
+          "role": "Senior Software Architect",
+          "city": "Cambridge",
+          "lat": 52.2053,
+          "lon": 0.1218,
+          "start_date": "2022-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Software MMU table isolation without hardware MPU fails IEC 62304 Clause 5.3.5 segregation for Class C."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Segregation must be hardware-enforced to prevent cascading memory corruption."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Reject",
+          "cluster_id": 1,
+          "rationale_text": "Reject. Class C software architecture lacks robust hardware boundary protection."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 2,
+          "rationale_text": "Software OS task isolation and static memory checking provide acceptable risk mitigation."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Certify",
+          "cluster_id": 2,
+          "rationale_text": "Memory protection design satisfies functional safety objectives under current ISO 14971 risk plan."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "DISPUTED",
+        "expected_branch": "Branch 4: Human Escalation",
+        "expected_decision": "Escalate",
+        "expected_se": 0.673,
+        "case_reference": "High-Entropy-015",
+        "defect_category": "high_semantic_entropy"
+      }
+    },
+    {
+      "task_id": "TASK-016",
+      "role": "ISO 10993 Biocompatibility Assessment Officer",
+      "role_category": "In-Vitro Diagnostics",
+      "applicant_id": "APP-IVD-401",
+      "dossier_text": "Dr. Sarah Jenkins documents comprehensive biological safety evaluation for microfluidic IVD consumable cartridge. Testing conducted strictly in GLP-certified laboratories according to ISO 10993-1, 10993-5 (MEM elution cytotoxicity < Grade 1), and 10993-10 (sensitization negative).",
+      "statutory_prerequisites": [
+        "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+        "GLP_ACCREDITED_TESTING_DATA",
+        "CYTOTOXICITY_AND_SENSITIZATION_EVAL"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-016-A",
+          "title": "Biocompatibility Assessment Lead",
+          "issuer": "GLP_MONITOR",
+          "accreditation_body": "OECD_GLP",
+          "scope": "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+          "start_date": "2020-04-01",
+          "end_date": "2026-04-01",
+          "span": "comprehensive biological safety evaluation for microfluidic IVD consumable cartridge"
+        },
+        {
+          "claim_id": "CLM-016-B",
+          "title": "GLP Laboratory Study Director",
+          "issuer": "CNAS_GLP",
+          "accreditation_body": "GLP-National",
+          "scope": "GLP_ACCREDITED_TESTING_DATA",
+          "start_date": "2020-04-01",
+          "end_date": "2026-04-01",
+          "span": "Testing conducted strictly in GLP-certified laboratories"
+        },
+        {
+          "claim_id": "CLM-016-C",
+          "title": "Toxicology Assessment Specialist",
+          "issuer": "OECD_GLP",
+          "accreditation_body": "OECD_GLP",
+          "scope": "CYTOTOXICITY_AND_SENSITIZATION_EVAL",
+          "start_date": "2020-04-01",
+          "end_date": "2026-04-01",
+          "span": "MEM elution cytotoxicity < Grade 1, and 10993-10 (sensitization negative)"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "BioEval Global Laboratories",
+          "role": "Principal Biocompatibility Officer",
+          "city": "Basel",
+          "lat": 47.5596,
+          "lon": 7.5886,
+          "start_date": "2020-04-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Full compliance with ISO 10993-1 and GLP testing guidelines confirmed."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Cytotoxicity Grade 0/1 and negative sensitization meet IVD consumable thresholds."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Accredited OECD GLP study reports independently verified."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Biocompatibility officer credentials and test program satisfy regulatory mandates."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Autonomous certification supported with 0.0% residual risk."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "COMPLIANT",
+        "expected_branch": "Branch 1: Autonomous Certification",
+        "expected_decision": "Certify",
+        "expected_se": 0.0,
+        "case_reference": "Baseline-Compliant-016",
+        "defect_category": "none"
+      }
+    },
+    {
+      "task_id": "TASK-017",
+      "role": "ISO 10993 Biocompatibility Assessment Officer",
+      "role_category": "In-Vitro Diagnostics",
+      "applicant_id": "APP-IVD-402",
+      "dossier_text": "Applicant claims 5 years experience as Lead Biocompatibility Evaluation Officer for Class III Cardiovascular Drug-Eluting Stents with permanent blood contact under ISO 10993-4. Primary employment verification documents disclose applicant's actual role was testing Class I topical cotton wound dressings with limited skin contact.",
+      "statutory_prerequisites": [
+        "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+        "GLP_ACCREDITED_TESTING_DATA",
+        "CYTOTOXICITY_AND_SENSITIZATION_EVAL"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-017-A",
+          "title": "Biocompatibility Assessment Officer",
+          "issuer": "GLP_MONITOR",
+          "accreditation_body": "OECD_GLP",
+          "scope": "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+          "start_date": "2020-01-01",
+          "end_date": "2025-01-01",
+          "span": "applicant's actual role was testing Class I topical cotton wound dressings"
+        },
+        {
+          "claim_id": "CLM-017-B",
+          "title": "GLP Test Report Signatory",
+          "issuer": "CNAS_GLP",
+          "accreditation_body": "GLP-National",
+          "scope": "GLP_ACCREDITED_TESTING_DATA",
+          "start_date": "2020-01-01",
+          "end_date": "2025-01-01",
+          "span": "Primary employment verification documents"
+        },
+        {
+          "claim_id": "CLM-017-C",
+          "title": "Cytotoxicity Analyst",
+          "issuer": "OECD_GLP",
+          "accreditation_body": "OECD_GLP",
+          "scope": "CYTOTOXICITY_AND_SENSITIZATION_EVAL",
+          "start_date": "2020-01-01",
+          "end_date": "2025-01-01",
+          "span": "limited skin contact"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "WoundCare Materials Co",
+          "role": "Quality Control Analyst",
+          "city": "Guangzhou",
+          "lat": 23.1291,
+          "lon": 113.2644,
+          "start_date": "2020-01-01",
+          "end_date": "2025-01-01",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Applicant claims 5 years biocompatibility experience under ISO 10993."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Severe scope distortion: Class I wound dressing experience cannot substitute for Class III permanent cardiovascular implant officer."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Disclosed records reveal only superficial skin contact testing, failing Class III statutory requirements."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Escalate",
+          "cluster_id": 3,
+          "rationale_text": "Case #ADV-037 scope mismatch requires human verification of device risk classification."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Reject. Discrepancy between claimed cardiovascular stent role and actual wound dressing records."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 4: Human Escalation",
+        "expected_decision": "Escalate",
+        "expected_se": 0.9503,
+        "case_reference": "Case #ADV-037",
+        "defect_category": "scope_distortion"
+      }
+    },
+    {
+      "task_id": "TASK-018",
+      "role": "ISO 10993 Biocompatibility Assessment Officer",
+      "role_category": "In-Vitro Diagnostics",
+      "applicant_id": "APP-IVD-403",
+      "dossier_text": "Applicant submits biocompatibility summary for diagnostic blood collection tube. Cytotoxicity and systemic toxicity tests were conducted at an unaccredited private chemistry workshop lacking GLP certification or ISO/IEC 17025 recognition.",
+      "statutory_prerequisites": [
+        "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+        "GLP_ACCREDITED_TESTING_DATA",
+        "CYTOTOXICITY_AND_SENSITIZATION_EVAL"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-018-A",
+          "title": "Biological Evaluation Author",
+          "issuer": "Unaccredited Private Lab",
+          "accreditation_body": "None",
+          "scope": "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+          "start_date": "2023-01-01",
+          "end_date": "2025-12-31",
+          "span": "unaccredited private chemistry workshop lacking GLP certification"
+        },
+        {
+          "claim_id": "CLM-018-B",
+          "title": "Workshop Testing Reports",
+          "issuer": "Unaccredited Private Lab",
+          "accreditation_body": "None",
+          "scope": "GLP_ACCREDITED_TESTING_DATA",
+          "start_date": "2023-01-01",
+          "end_date": "2025-12-31",
+          "span": "lacking GLP certification or ISO/IEC 17025 recognition"
+        },
+        {
+          "claim_id": "CLM-018-C",
+          "title": "Non-GLP Toxicity Notes",
+          "issuer": "Unaccredited Private Lab",
+          "accreditation_body": "None",
+          "scope": "CYTOTOXICITY_AND_SENSITIZATION_EVAL",
+          "start_date": "2023-01-01",
+          "end_date": "2025-12-31",
+          "span": "Cytotoxicity and systemic toxicity tests"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "Private Testing Workshop",
+          "role": "Lab Analyst",
+          "city": "Prague",
+          "lat": 50.0755,
+          "lon": 14.4378,
+          "start_date": "2023-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Chemical testing reports indicate minimal toxicity."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Testing facility lacks GLP and ISO 17025 accreditation required by ISO 10993."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Non-GLP data invalid for statutory regulatory submission."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Unaccredited laboratory testing cannot satisfy biocompatibility prerequisite."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Reject",
+          "cluster_id": 2,
+          "rationale_text": "Reject. Mandatory GLP laboratory accreditation missing."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "NON_COMPLIANT",
+        "expected_branch": "Branch 2: Autonomous Rejection",
+        "expected_decision": "Reject",
+        "expected_se": 0.0,
+        "case_reference": "Unaccredited-Lab-018",
+        "defect_category": "adversarial_unaccredited_lab"
+      }
+    },
+    {
+      "task_id": "TASK-019",
+      "role": "ISO 10993 Biocompatibility Assessment Officer",
+      "role_category": "In-Vitro Diagnostics",
+      "applicant_id": "APP-IVD-404",
+      "dossier_text": "Applicant conducts extraction test for IVD reagent cartridge under ISO 10993-12. Extraction was performed at 37°C for 72 hours instead of standard 50°C for 72 hours due to reagent cassette polymer softening point; extraction ratio was proportionally increased to compensate.",
+      "statutory_prerequisites": [
+        "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+        "GLP_ACCREDITED_TESTING_DATA",
+        "CYTOTOXICITY_AND_SENSITIZATION_EVAL"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-019-A",
+          "title": "Biocompatibility Assessment Officer",
+          "issuer": "GLP_MONITOR",
+          "accreditation_body": "OECD_GLP",
+          "scope": "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+          "start_date": "2021-03-01",
+          "end_date": "2026-03-01",
+          "span": "conducts extraction test for IVD reagent cartridge under ISO 10993-12"
+        },
+        {
+          "claim_id": "CLM-019-B",
+          "title": "GLP In-Vitro Study Director",
+          "issuer": "CNAS_GLP",
+          "accreditation_body": "GLP-National",
+          "scope": "GLP_ACCREDITED_TESTING_DATA",
+          "start_date": "2021-03-01",
+          "end_date": "2026-03-01",
+          "span": "extraction ratio was proportionally increased"
+        },
+        {
+          "claim_id": "CLM-019-C",
+          "title": "Cytotoxicity and Toxicity Analyst",
+          "issuer": "OECD_GLP",
+          "accreditation_body": "OECD_GLP",
+          "scope": "CYTOTOXICITY_AND_SENSITIZATION_EVAL",
+          "start_date": "2021-03-01",
+          "end_date": "2026-03-01",
+          "span": "reagent cassette polymer softening point"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "GenePure Diagnostics AG",
+          "role": "Senior Toxicologist",
+          "city": "Zurich",
+          "lat": 47.3769,
+          "lon": 8.5417,
+          "start_date": "2021-03-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Compensatory extraction ratio and 37°C / 72 h regime satisfy ISO 10993-12 Clause 10.3."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Cytotoxicity and sensitization tests meet acceptance thresholds."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Accredited GLP test documentation verifies biocompatibility of device contact surfaces."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Polymer safety profile confirmed with zero toxic leachable exceedances."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Clarify",
+          "cluster_id": 2,
+          "rationale_text": "Request thermal stability validation curve supporting the 37°C extraction deviation."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "AMBIGUOUS",
+        "expected_branch": "Branch 3: Ambiguity Clarification Request",
+        "expected_decision": "Clarify",
+        "expected_se": 0.5004,
+        "case_reference": "Boundary-Ambiguity-019",
+        "defect_category": "boundary_ambiguity"
+      }
+    },
+    {
+      "task_id": "TASK-020",
+      "role": "ISO 10993 Biocompatibility Assessment Officer",
+      "role_category": "In-Vitro Diagnostics",
+      "applicant_id": "APP-IVD-405",
+      "dossier_text": "Applicant evaluates genotoxicity for a high-risk IVD microchip with direct blood lysis. Submitted bacterial reverse mutation assay (Ames test) was negative. Review committee split evenly: two reviewers argue Ames test is sufficient under ISO 10993-3 for in-vitro exposure, while two reviewers demand mammalian in-vitro mouse lymphoma assay.",
+      "statutory_prerequisites": [
+        "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+        "GLP_ACCREDITED_TESTING_DATA",
+        "CYTOTOXICITY_AND_SENSITIZATION_EVAL"
+      ],
+      "extracted_claims": [
+        {
+          "claim_id": "CLM-020-A",
+          "title": "Biocompatibility Assessment Officer",
+          "issuer": "GLP_MONITOR",
+          "accreditation_body": "OECD_GLP",
+          "scope": "ISO_10993_BIOCOMPATIBILITY_OFFICER",
+          "start_date": "2021-01-01",
+          "end_date": "2026-01-01",
+          "span": "evaluates genotoxicity for a high-risk IVD microchip"
+        },
+        {
+          "claim_id": "CLM-020-B",
+          "title": "GLP Study Director",
+          "issuer": "CNAS_GLP",
+          "accreditation_body": "GLP-National",
+          "scope": "GLP_ACCREDITED_TESTING_DATA",
+          "start_date": "2021-01-01",
+          "end_date": "2026-01-01",
+          "span": "bacterial reverse mutation assay (Ames test) was negative"
+        },
+        {
+          "claim_id": "CLM-020-C",
+          "title": "In-Vitro Genetic Toxicologist",
+          "issuer": "OECD_GLP",
+          "accreditation_body": "OECD_GLP",
+          "scope": "CYTOTOXICITY_AND_SENSITIZATION_EVAL",
+          "start_date": "2021-01-01",
+          "end_date": "2026-01-01",
+          "span": "ISO 10993-3 for in-vitro exposure"
+        }
+      ],
+      "appointments": [
+        {
+          "org": "BioChip Diagnostics Inc",
+          "role": "Regulatory Affairs Director",
+          "city": "Boston",
+          "lat": 42.3601,
+          "lon": -71.0589,
+          "start_date": "2021-01-01",
+          "end_date": "2025-12-31",
+          "full_time": true
+        }
+      ],
+      "simulated_stochastic_rationales": [
+        {
+          "sample_id": 1,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Ames assay satisfies initial genotoxicity screening for closed in-vitro microchip."
+        },
+        {
+          "sample_id": 2,
+          "decision": "Certify",
+          "cluster_id": 1,
+          "rationale_text": "Negative Ames test in GLP facility complies with ISO 10993-3 baseline."
+        },
+        {
+          "sample_id": 3,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "Blood lysis exposure requires mammalian genotoxicity assay (mouse lymphoma) under IVDR Annex I."
+        },
+        {
+          "sample_id": 4,
+          "decision": "Escalate",
+          "cluster_id": 2,
+          "rationale_text": "Escalate to toxicology cockpit: Ames test alone is insufficient for cell lysis reagents."
+        },
+        {
+          "sample_id": 5,
+          "decision": "Clarify",
+          "cluster_id": 3,
+          "rationale_text": "Request applicant justification for omitting mammalian cell gene mutation test."
+        }
+      ],
+      "ground_truth": {
+        "verdict": "DISPUTED",
+        "expected_branch": "Branch 4: Human Escalation",
+        "expected_decision": "Escalate",
+        "expected_se": 1.0549,
+        "case_reference": "Deadlock-Tie-020",
+        "defect_category": "consensus_deadlock"
+      }
+    }
+  ]
+}

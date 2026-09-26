@@ -1,0 +1,11 @@
+# ==============================================================================
+# ACM FSE 2027 Replication Package Dependencies
+# Paper: Guarding the Regulated Frontier: Dual-Track Tri-Agent Semantic Entropy
+#        for Hallucination Mitigation in High-Stakes Medical Device Compliance
+# ==============================================================================
+# Note: The demonstration engine (run_demo.py) is engineered with zero mandatory
+# external dependencies and executes out-of-the-box using the Python 3.9+ standard
+# library (math, json, os, sys, argparse, pathlib, typing).
+#
+# Optional compatibility backports for Python < 3.10:
+typing_extensions>=4.5.0; python_version < "3.10"

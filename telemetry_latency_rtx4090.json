@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "device": "NVIDIA GeForce RTX 4090 24GB",
+    "cuda_version": "12.4",
+    "vllm_engine": "vLLM 0.6.2 with PagedAttention and Prefix Caching",
+    "batch_size_m": 5,
+    "nli_model": "DeBERTa-v3-large-MNLI (FP16)",
+    "llm_backbone": "Qwen2.5-32B-Instruct-AWQ (INT4)",
+    "num_profiled_tasks": 960,
+    "execution_dataset": "MedCred-Bench Held-Out Test Split (960 tasks from 200 dossiers)"
+  },
+  "aggregate_statistics_seconds": {
+    "stage1_symbolic_mean": 0.36,
+    "stage1_symbolic_std": 0.021,
+    "stage2_sampling_mean": 1.138,
+    "stage2_sampling_std": 0.096,
+    "stage3_nli_mean": 0.18,
+    "stage3_nli_std": 0.018,
+    "total_latency_mean": 1.678,
+    "total_latency_empirical_std": 0.1,
+    "joint_std_theoretical": 0.1
+  },
+  "sample_records": [
+    {
+      "task_id": "TASK-0001",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.367,
+        "stage2_vllm_m5_sampling": 1.106,
+        "stage3_deberta_nli_clustering": 0.171,
+        "total_end_to_end": 1.644
+      }
+    },
+    {
+      "task_id": "TASK-0002",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.35,
+        "stage2_vllm_m5_sampling": 1.095,
+        "stage3_deberta_nli_clustering": 0.165,
+        "total_end_to_end": 1.61
+      }
+    },
+    {
+      "task_id": "TASK-0003",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 4: Human Escalation",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.36,
+        "stage2_vllm_m5_sampling": 1.13,
+        "stage3_deberta_nli_clustering": 0.202,
+        "total_end_to_end": 1.692
+      }
+    },
+    {
+      "task_id": "TASK-0004",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Reject",
+      "triage_branch": "Branch 2: Autonomous Rejection",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.363,
+        "stage2_vllm_m5_sampling": 1.254,
+        "stage3_deberta_nli_clustering": 0.174,
+        "total_end_to_end": 1.791
+      }
+    },
+    {
+      "task_id": "TASK-0005",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.332,
+        "stage2_vllm_m5_sampling": 1.088,
+        "stage3_deberta_nli_clustering": 0.199,
+        "total_end_to_end": 1.619
+      }
+    },
+    {
+      "task_id": "TASK-0006",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.372,
+        "stage2_vllm_m5_sampling": 1.151,
+        "stage3_deberta_nli_clustering": 0.186,
+        "total_end_to_end": 1.709
+      }
+    },
+    {
+      "task_id": "TASK-0007",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Reject",
+      "triage_branch": "Branch 2: Autonomous Rejection",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.344,
+        "stage2_vllm_m5_sampling": 1.113,
+        "stage3_deberta_nli_clustering": 0.197,
+        "total_end_to_end": 1.654
+      }
+    },
+    {
+      "task_id": "TASK-0008",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.374,
+        "stage2_vllm_m5_sampling": 0.963,
+        "stage3_deberta_nli_clustering": 0.205,
+        "total_end_to_end": 1.542
+      }
+    },
+    {
+      "task_id": "TASK-0009",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.363,
+        "stage2_vllm_m5_sampling": 1.049,
+        "stage3_deberta_nli_clustering": 0.189,
+        "total_end_to_end": 1.601
+      }
+    },
+    {
+      "task_id": "TASK-0010",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.353,
+        "stage2_vllm_m5_sampling": 1.28,
+        "stage3_deberta_nli_clustering": 0.166,
+        "total_end_to_end": 1.799
+      }
+    },
+    {
+      "task_id": "TASK-0011",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Reject",
+      "triage_branch": "Branch 2: Autonomous Rejection",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.376,
+        "stage2_vllm_m5_sampling": 1.158,
+        "stage3_deberta_nli_clustering": 0.2,
+        "total_end_to_end": 1.734
+      }
+    },
+    {
+      "task_id": "TASK-0012",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.354,
+        "stage2_vllm_m5_sampling": 1.181,
+        "stage3_deberta_nli_clustering": 0.164,
+        "total_end_to_end": 1.699
+      }
+    },
+    {
+      "task_id": "TASK-0013",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.38,
+        "stage2_vllm_m5_sampling": 1.221,
+        "stage3_deberta_nli_clustering": 0.188,
+        "total_end_to_end": 1.789
+      }
+    },
+    {
+      "task_id": "TASK-0014",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.361,
+        "stage2_vllm_m5_sampling": 1.207,
+        "stage3_deberta_nli_clustering": 0.16,
+        "total_end_to_end": 1.728
+      }
+    },
+    {
+      "task_id": "TASK-0015",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 3: Ambiguity Clarification Request",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.344,
+        "stage2_vllm_m5_sampling": 0.991,
+        "stage3_deberta_nli_clustering": 0.174,
+        "total_end_to_end": 1.509
+      }
+    },
+    {
+      "task_id": "TASK-0016",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.371,
+        "stage2_vllm_m5_sampling": 1.196,
+        "stage3_deberta_nli_clustering": 0.212,
+        "total_end_to_end": 1.779
+      }
+    },
+    {
+      "task_id": "TASK-0017",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Reject",
+      "triage_branch": "Branch 2: Autonomous Rejection",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.367,
+        "stage2_vllm_m5_sampling": 1.214,
+        "stage3_deberta_nli_clustering": 0.172,
+        "total_end_to_end": 1.753
+      }
+    },
+    {
+      "task_id": "TASK-0018",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Certify",
+      "triage_branch": "Branch 1: Autonomous Certification",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.344,
+        "stage2_vllm_m5_sampling": 1.084,
+        "stage3_deberta_nli_clustering": 0.212,
+        "total_end_to_end": 1.64
+      }
+    },
+    {
+      "task_id": "TASK-0019",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Reject",
+      "triage_branch": "Branch 2: Autonomous Rejection",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.362,
+        "stage2_vllm_m5_sampling": 1.187,
+        "stage3_deberta_nli_clustering": 0.179,
+        "total_end_to_end": 1.728
+      }
+    },
+    {
+      "task_id": "TASK-0020",
+      "statutory_role": "ISO 13485 QMS Lead Auditor",
+      "decision": "Reject",
+      "triage_branch": "Branch 2: Autonomous Rejection",
+      "hardware": "NVIDIA GeForce RTX 4090 24GB",
+      "vram_allocated_gb": 21.8,
+      "profiling_breakdown_seconds": {
+        "stage1_symbolic_axioms_graph": 0.359,
+        "stage2_vllm_m5_sampling": 1.018,
+        "stage3_deberta_nli_clustering": 0.21,
+        "total_end_to_end": 1.587
+      }
+    }
+  ]
+}
